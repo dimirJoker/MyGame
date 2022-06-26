@@ -1,6 +1,9 @@
-﻿namespace MyGame
+﻿
+using System.Collections;
+
+namespace MyGame
 {
-    abstract class Levels
+    abstract class Levels  
     {
         public string[,] map;
         public Position playerPosition;
